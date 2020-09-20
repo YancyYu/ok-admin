@@ -1,4 +1,4 @@
-package cn.mi46.demo;
+package com.java.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

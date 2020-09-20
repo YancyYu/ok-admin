@@ -1,4 +1,4 @@
-package cn.mi46.model;
+package com.java.model;
 
 import java.util.Date;
 

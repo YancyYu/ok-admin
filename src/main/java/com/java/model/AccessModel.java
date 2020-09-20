@@ -1,4 +1,4 @@
-package cn.mi46.model;
+package com.java.model;
 
 public class AccessModel {
     private Integer userId;

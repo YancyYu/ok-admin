@@ -1,4 +1,4 @@
-package cn.mi46.controller;
+package com.java.controller;
 
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;

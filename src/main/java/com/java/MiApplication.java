@@ -1,4 +1,4 @@
-package cn.mi46;
+package com.java;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

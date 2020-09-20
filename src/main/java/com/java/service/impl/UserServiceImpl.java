@@ -1,8 +1,8 @@
-package cn.mi46.service.impl;
+package com.java.service.impl;
 
-import cn.mi46.mapper.UserMapper;
-import cn.mi46.model.UserModel;
-import cn.mi46.service.UserService;
+import com.java.mapper.UserMapper;
+import com.java.model.UserModel;
+import com.java.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

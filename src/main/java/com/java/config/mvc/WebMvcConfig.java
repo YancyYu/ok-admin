@@ -1,4 +1,4 @@
-package cn.mi46.config.mvc;
+package com.java.config.mvc;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

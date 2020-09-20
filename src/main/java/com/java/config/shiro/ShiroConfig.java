@@ -1,4 +1,4 @@
-package cn.mi46.config.shiro;
+package com.java.config.shiro;
 
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;

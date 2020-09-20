@@ -1,6 +1,6 @@
-package cn.mi46.mapper;
+package com.java.mapper;
 
-import cn.mi46.model.UserModel;
+import com.java.model.UserModel;
 import org.apache.ibatis.annotations.Select;
 
 public interface UserMapper {

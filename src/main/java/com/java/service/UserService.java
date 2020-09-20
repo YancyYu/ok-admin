@@ -1,6 +1,6 @@
-package cn.mi46.service;
+package com.java.service;
 
-import cn.mi46.model.UserModel;
+import com.java.model.UserModel;
 
 public interface UserService {
     /**

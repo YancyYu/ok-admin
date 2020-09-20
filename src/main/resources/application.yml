@@ -1,13 +1,3 @@
 spring:
   profiles:
     active: test
-#qiniu:
-#  accessKey: 0pVDPwpj2icszYMlFNx-L219WrIgNHTxWdhU3fmE
-#  secretKey: XOSRPHJLb7Bq9gNzTT3j_L_WRGiqOBmGO_rDqK6V
-#  bucket: qklimg
-#  path: qklimg.s3-cn-south-1.qiniucs.com
-qiniu:
-  accessKey: I9nFOl1wVMNHxa0_v9Qg1aRkwk4C9q_LxT9_XcPB
-  secretKey: FngIZJnMGrcWxPORuy2QapZz861TG-M9otoheicd
-  bucket: c-ddirect
-  path: c-ddirect.s3-cn-south-1.qiniucs.com

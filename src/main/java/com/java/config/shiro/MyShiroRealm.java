@@ -1,8 +1,8 @@
-package cn.mi46.config.shiro;
+package com.java.config.shiro;
 
 
-import cn.mi46.model.UserModel;
-import cn.mi46.service.UserService;
+import com.java.model.UserModel;
+import com.java.service.UserService;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;

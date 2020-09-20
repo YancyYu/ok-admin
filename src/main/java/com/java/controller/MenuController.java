@@ -1,4 +1,4 @@
-package cn.mi46.controller;
+package com.java.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
