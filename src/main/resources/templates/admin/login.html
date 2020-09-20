@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="static/static-login/lib/html5.js"></script>
+    <script type="text/javascript" src="static/static-login/lib/respond.min.js"></script>
+    <![endif]-->
+    <link href="static/static-login/static/h-ui/css/H-ui.css" rel="stylesheet" type="text/css" />
+    <link href="static/static-login/static/h-ui.ucenter/css/H-ui.ucenter.css" rel="stylesheet" type="text/css" />
+    <link href="static/static-login/lib/Hui-iconfont/1.0.8/iconfont.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+    <link href="static/static-login/static/h-ui/css/H-ui.ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 6]>
+    <script type="text/javascript" src="static/static-login/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>逐日-专注于试玩平台推广平台</title>
+    <meta name="keywords" content="手赚试玩收徒源码,逐日试客官网,试玩平台,试玩平台展示程序,试玩平台推广,试玩收徒程序,任务收徒平台源码,探树,探树app推广,探树官方,探树试玩">
+    <meta name="description" content="逐日试客是一款针对于试玩APP平台推广程序，逐日试客提供手机试玩平台展示、微信试玩平台展示、试玩平台搭建程序,让网赚玩家拥有属于自己的试玩平台推广程序，方便推广。">
+</head>
+<body>
+<div class="login-wraper">
+    <div class="login-form radius box-shadow">
+        <div class="clearfix pt-20">
+            <!--  <i class="iconpic iconpic-logo"></i> -->
+        </div>
+        <div class="row clearfix form-title">登录</div>
+        <form class="form form-horizontal" id="form-login" method="post">
+            <div class="row clearfix">
+                <input type="text" class="input-text radius size-L" name="username" id="username" value="" placeholder="账号">
+            </div>
+            <div class="row clearfix">
+                <input type="password" class="input-text radius size-L" name="password" id="password" value="" placeholder="密码">
+            </div>
+            <div class="row clearfix">
+                <button class="btn btn-primary btn-block radius size-L" type="submit">登 录</button>
+            </div>
+            <div class="row clearfix f-12">
+                <p>逐日-专注于试玩平台推广</p>
+                <div class="line mt-20"></div>
+            </div>
+
+            <div class="row clearfix">没有账户? <a href="reg.html"><strong>注 册</strong></a></div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="static/static-login/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="static/static-login/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="static/static-login/lib/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="static/static-login/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="static/static-login/lib/jquery.validation/1.14.0/messages_zh.min.js"></script>
+<script src="static/static-home/layer/layer.js"></script>
+<script type="text/javascript" th:inline="javascript">
+    var message = [[${msg}]];
+    layer.msg(message);
+
+    $(function() {
+        $("#form-login").validate({
+            rules: {
+                username: {
+                    required: true
+                },
+                password: {
+                    required: true,
+                    rangelength: [6, 16]
+                },
+            },
+            messages: {
+                username: {
+                    required: "账号不能为空"
+                },
+                password: {
+                    required: "密码不能为空",
+                    rangelength: "6-16个字符"
+                }
+            },
+            onkeyup: false,
+            focusCleanup: false
+        });
+
+    });
+
+</script>
+
+</body>
+</html>
+<!--H-ui前端框架提供前端技术支持 h-ui.net @2019-02-27 -->
